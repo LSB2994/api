@@ -1,9 +1,8 @@
 package com.example.remoteservisce.Api
 
 import com.google.gson.annotations.SerializedName
-import java.util.Date
 
-data class ArticlesResponse(
+data class Article(
     @SerializedName("id")
     var id:Long?=null,
     @SerializedName("title")
